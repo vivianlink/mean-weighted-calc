@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<%= stylesheet_link_tag "calculator.css" %>
+	</head>
+	<body>
+		<div class="black-border-wrapper">
+			<div class="black-border">
+				<div class="blank-space">
+					<h1>Grade Calculator</h1>
+					<div class="blue-section">
+						Activities
+						<br>
+						<div class="grade">
+							Give grades to the numeric activities:
+						</div>
+						<table>
+							<tr>
+								<th>
+									Name
+								</th>
+								<th>
+									Short Name
+								</th>
+								<th>
+									Weight
+								</th>
+								<th>
+									Grade
+								</th>
+								<th>
+									Percent
+								</th>
+							</tr>
+							<tr>
+								<td>
+									Activity 1
+								</td>
+								<td>
+									A1
+								</td>
+								<td>
+									<input class="weight" type="text">
+								</td>
+								<td>
+									<input class="student-mark" type="text">/
+									<br>
+									<input class="total-mark" type="text">
+								</td>
+								<td class="percentage">
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Activity 2
+								</td>
+								<td>
+									A2
+								</td>
+								<td>
+									<input class="weight" type="text">
+								</td>
+								<td>
+									<input class="student-mark" type="text">/
+									<br>
+									<input class="total-mark" type="text">
+								</td>
+								<td class= "percentage">
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Activity 3
+								</td>
+								<td>
+									A3
+								</td>
+								<td>
+									<input class="weight" type="text">
+								</td>
+								<td>
+									<input class="student-mark" type="text">/
+									<br>
+									<input class="total-mark" type="text">
+								</td>
+								<td class= "percentage">
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Activity 4
+								</td>
+								<td>
+									A4
+								</td>
+								<td>
+									<input class="weight" type="text">
+								</td>
+								<td>
+									<input class="student-mark" type="text">/
+									<br>
+									<input class="total-mark" type="text">
+								</td>
+								<td class= "percentage">
+
+								</td>
+							</tr>
+						</table>
+						<br>
+						Result
+						<div class="result"></div>
+						<div class="button-wrapper">
+							<div class="red-button weight-button">WEIGHTED</div>
+							<div class="red-button mean-button">MEAN</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<%= javascript_include_tag "calculator.js" %>
+		<!-- <script src="calculator.js"></script> -->
+	</body>
+</html>

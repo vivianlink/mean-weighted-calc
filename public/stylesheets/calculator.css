@@ -1,0 +1,106 @@
+
+@import 'https://fonts.googleapis.com/css?family=Arimo';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #A6192E;
+	margin: 0;
+	height: 690px;
+}
+
+.black-border-wrapper {
+	text-align: center;
+}
+
+.black-border {
+	display: inline-block;
+	background-color: #3C3834;
+	width: 93%;
+	height: 90%;
+}
+
+.blank-space{
+	font-family: 'Arimo', sans-serif;
+	margin-top: 19px;
+	height: 90%;
+	background-color: #FFF;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 35px;
+	font-size: 10px;
+}
+
+.blue-section{
+	background-color: #E9EFF1;
+	padding-left: 15px;
+	font-weight: bold;
+	padding-top: 20px;
+	color: #A6192E;
+	font-size: 15px;
+	text-align: left;
+	height: 85%;
+	width: 70%;
+	border: 1px solid #D9DFE1;
+	border-radius: 7px;
+}
+
+.grade {
+	color: #000;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+table {
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+input {
+	width: 70px;
+}
+
+th {
+	background-color: #DDDDDD;
+	width: 155px;
+	text-align: left;
+	padding: 5px 0;
+}
+
+th, td {
+	padding-left: 5px;
+}
+
+table, th, td {
+    border: 1px solid #C5C5C5;
+    border-collapse: collapse;
+}
+
+.button-wrapper{
+	text-align: right;
+}
+
+.red-button {
+	text-align: center;
+	background-color: #B5111A;
+	color: #fff;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 10px;
+	padding: 5px;
+	width: 70px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.red-button:hover {
+	background-color: #C5212A;
+}
+
+.result{
+	padding: 10px;
+	font-size: 20px;
+	color: black;
+}
